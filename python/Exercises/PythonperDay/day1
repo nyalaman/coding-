@@ -1,0 +1,22 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Feb 10 09:00:51 2021
+
+@author: julian
+"""
+
+while True:
+    try:
+        number = int(input("Please input a number: "))
+        result = int(number) % 2
+        if result != 0:
+            print("Your number is odd")
+    else:   
+        print("Your number is even")
+    
+    except ValueError:
+        print("Try again smart arse!")
+
+
+
